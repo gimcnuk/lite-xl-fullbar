@@ -1,0 +1,11 @@
+{
+  "addons": [
+    {
+      "id": "fullbarview",
+      "description": "Toolbar plugin for Lite XL editor",
+      "type": "plugin",
+      "path": "plugins/fullbarview.lua",
+      "version": "0.1"
+    }
+  ]
+}
