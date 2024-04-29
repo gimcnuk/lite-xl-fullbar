@@ -6,6 +6,18 @@
       "type": "plugin",
       "path": "plugins/fullbarview.lua",
       "version": "0.1"
+    },
+    {
+      "id": "tabler-icons",
+      "version": "0.1",
+      "type": "font",
+      "description": "Tabler icons font",
+      "files": [ # Downloads all files listed here to USERDIR/fonts.
+        {
+          "url": "https://github.com/gimcnuk/lite-xl-fullbar/raw/main/data/fonts/tabler-icons.ttf",
+          "checksum": "aca904507e7d4d812566e230c6fc79782579d06e7497ec8df775b9d1163d705e"
+        }
+      ]
     }
   ]
 }
