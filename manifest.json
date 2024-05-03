@@ -6,6 +6,7 @@
 			"type": "plugin",
 			"path": "data/plugins/fullbarview.lua",
 			"version": "0.1",
+			"mod_version": 3,
 			"dependencies": { "tabler-icons": {} }
 		},
 		{
