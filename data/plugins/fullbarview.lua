@@ -19,8 +19,9 @@ function FullbarView:new()
 	
 	--self.fufont = style.icon_big_font
 	self.fufont = nil
-	core.try(function() self.fufont = renderer.font.load(DATADIR .. "/fonts/tabler-icons.ttf", 23 * SCALE, {antialiasing="grayscale", hinting="full"}) end)
-	core.try(function() self.fufont = renderer.font.load(USERDIR .. "/fonts/tabler-icons.ttf", 23 * SCALE, {antialiasing="grayscale", hinting="full"}) end)
+	for _, dir in ipairs ( {DATADIR .. "/fonts/tabler-icons.ttf", USERDIR .. "/fonts/tabler-icons.ttf", USERDIR .. "/fonts/tabler-icons/tabler-icons.ttf"} ) do
+		core.try(function() self.fufont = renderer.font.load(dir, 23 * SCALE, {antialiasing="grayscale", hinting="full"}) end)
+	end
 
 	-- not implemented: 1 - button only, 2 - text only, 3 - button and text
 	--self.show = 3
