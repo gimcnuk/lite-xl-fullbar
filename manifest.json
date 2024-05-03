@@ -4,17 +4,16 @@
       "id": "fullbarview",
       "description": "Toolbar plugin for Lite XL editor",
       "type": "plugin",
-      "path": "data/plugins/fullbarview.lua",
+      "path": "plugins/fullbarview.lua",
       "version": "0.1",
-      "mod_version": "3"
-    },
-    {
-      "id": "tabler-icons",
-      "version": "0.1",
-      "mod_version": "3",
-      "type": "font",
-      "description": "Tabler icons font",
-      "path": "data/fonts/tabler-icons.ttf"
+	    "mod_version": "3",
+	    "files": [
+        {
+          "url": "https://github.com/gimcnuk/lite-xl-fullbar/raw/main/data/fonts/tabler-icons.ttf",
+          "checksum": "aca904507e7d4d812566e230c6fc79782579d06e7497ec8df775b9d1163d705e",
+		      "path": "fonts"
+        }
+      ]
     }
   ]
 }
